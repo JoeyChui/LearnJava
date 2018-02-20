@@ -23,7 +23,7 @@ public class BinarySearch {
         }
         return -1;
     }
-//fdghf
+//zhushi
     private static int binarySearch1(int[] array, int low, int high, int goal){
         int middle = (low + high)/2;
         while(low <= high){

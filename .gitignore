@@ -1,6 +1,9 @@
 
-# .idea
-*/.idea/
+# .idea/workspace.xml
+*/.idea/workspace.xml
+
+# java out
+*/out/
 
 # Compiled class file
 *.class

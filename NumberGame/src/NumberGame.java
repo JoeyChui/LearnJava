@@ -1,5 +1,5 @@
 /*
- * Creat by joey on 2/23/18
+ *Creat by joey on 2/23/18
 */
 
 import java.util.Scanner;
@@ -15,10 +15,10 @@ public class NumberGame {
 
         Scanner scanner = new Scanner(System.in);
         for(int i = 10; i > 0; i--){
-           System.out.println("You hava " + i + " guess(es) left. Choose again: ");
+           System.out.println("You have " + i + " guess(es) left. Choose again: ");
            int guess = scanner.nextInt();
 
-           if(randomNumber < guess) {
+           if(randomNumber < guess){
                System.out.println("It's small than " + guess + ".");
            }else if(randomNumber > guess){
                System.out.println("It's greater than " + guess + ".");
@@ -34,5 +34,7 @@ public class NumberGame {
             System.out.println("GAME OVER... YOU LOSE!!!");
             System.out.println("The number was: " + randomNumber);
         }
+
     }
+
 }

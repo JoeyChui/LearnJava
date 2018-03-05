@@ -76,14 +76,15 @@ public class LinkedList {
         LinkedList ll = new LinkedList();
         ll.insertFirst(4);
         ll.insertFirst(3);
-        ll.insertFirst(2);
+        ll.insertFirst("sdfgh");
+
         ll.insertFirst(1);
         ll.display();
         ll.deleteFirst();
         ll.display();
         ll.remove(3);
         ll.display();
-        System.out.println(ll.find(1));
+        System.out.println(ll.find("sdfgh"));
         System.out.println(ll.find(4));
     }
 

@@ -3,6 +3,10 @@ public class LinkedList{
     private class Data{
         private Object obj;
         private Data next = null;
+
+        Data(Object obj){
+            this.obj = obj;
+        }
     }
 
     private Data first = null;
